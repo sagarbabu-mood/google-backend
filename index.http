@@ -1,0 +1,30 @@
+POST http://localhost:3000/add/users
+Content-Type: application/json
+
+{
+    "username": "bunny",
+    "email": "bunnybharath917@gmail.com",
+    "password": "asdfdfesdfsdfasasdffasdfasqwedv"
+}
+
+###
+GET http://localhost:5000/user/details
+Content-Type: application/json
+
+###
+GET  http://localhost:5000/videos
+Content-Type: application/json 
+
+
+###
+DELETE http://localhost:3000/delete/user 
+Content-Type: application/json 
+
+{
+    "username":"bharath91"
+}
+
+###
+GET http://localhost:5000/video-access-token 
+Content-Type: application/json 
+
